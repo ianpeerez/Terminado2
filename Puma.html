@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DSTOP</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="HTML/Imagenes/LOGO.jpg" type="image/jpg">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="index.html">DSTOP</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link" href="Adidas.html">Adidas</a>
+                <a class="nav-item nav-link" href="Nike.html">Nike</a>
+                <a class="nav-item nav-link" href="Contacto.html">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CONTENIDO -->
+    <div class="container-fluid mt-5 pt-5">
+        <h1 class="mb-4">Descuentos top de esta semana</h1>
+        <div class="row">
+
+            <!-- FILTRO -->
+            <div class="col-md-3 sidebar">
+                <h4>Filtrar</h4>
+                <div class="mt-3">
+                    <label for="priceRange">Precio máximo</label>
+                    <input type="range" class="form-range" min="50000" max="200000" step="1000" id="priceRange">
+                    <p>Hasta $<span id="rangeValue">200000</span></p>
+                </div>
+            </div>
+
+            <!-- PRODUCTOS -->
+            <div class="col-md-9">
+                <div class="row" id="productos">
+
+                    <!-- Producto 1 -->
+                    <div class="col-md-4 producto" data-precio="70000">
+                        <div class="producto-carta">
+                            <a href="https://ar.puma.com/pd/zapatillas-rbd-game-low-adp/389002.html?color=01" target="_blank">
+                            <img src="HTML/Imagenes puma/WhatsApp Image 2025-06-07 at 12.36.01.jpeg" alt="Puma RBD Game Low ADP">
+                            </a>
+                            <p>Zapatillas Puma RBD Game Low ADP</p>
+                            <p class="precio">$70.000</p>
+                            <p>3 cuotas sin interés</p>
+                        </div>
+                    </div>
+
+                    <!-- Producto 2 -->
+                    <div class="col-md-4 producto" data-precio="71999">
+                        <div class="producto-carta">
+                            <a href="https://ar.puma.com/pd/zapatillas-de-training-disperse-xt/379362.html?color=08" target="_blank">
+                                <img src="HTML/Imagenes puma/WhatsApp Image 2025-06-07 at 12.36.43.jpeg" alt="Puma de training Disperse XT">
+                            </a>
+                            <p>Puma de training Disperse XT</p>
+                            <p class="precio">$71.999</p>
+                            <p>3 cuotas sin interés</p>
+                        </div>
+                    </div>
+
+                    <!-- Producto 3 -->
+                    <div class="col-md-4 producto" data-precio="89999">
+                        <div class="producto-carta">
+                            <a href="https://ar.puma.com/pd/zapatillas-rs-x-efekt/397405.html?color=02" target="_blank">
+                                <img src="HTML/Imagenes puma/WhatsApp Image 2025-06-07 at 12.37.23.jpeg" alt="Puma RS-X Efekt">
+                            </a>
+                            <p>Puma RS-X Efekt</p>
+                            <p class="precio">$89.999</p>
+                            <p>3 cuotas sin interés</p>
+                        </div>
+                    </div>
+
+                    <!-- Producto 4 -->
+                    <div class="col-md-4 producto" data-precio="92000">
+                        <div class="producto-carta">
+                            <a href="https://ar.puma.com/pd/zapatillas-velophasis-play-loud/398481.html?color=01" target="_blank">
+                                <img src="HTML/Imagenes puma/WhatsApp Image 2025-06-07 at 12.38.23.jpeg" alt="Puma Velophasis Play Loud">
+                            </a>
+                            <p>Puma Velophasis Play Loud</p>
+                            <p class="precio">$92.000</p>
+                            <p>3 cuotas sin interés</p>
+                        </div>
+                    </div>
+
+                    <!-- Producto 5 -->
+                    <div class="col-md-4 producto" data-precio="95000">
+                        <div class="producto-carta">
+                            <a href="https://ar.puma.com/pd/zapatillas-puma-slipstream-lth/404753.html?color=02" target="_blank">
+                                <img src="HTML/Imagenes puma/WhatsApp Image 2025-06-09 at 21.51.51.jpeg" alt="Puma Slipstream lth">
+                            </a>
+                            <p>Puma Slipstream lth</p>
+                            <p class="precio">$95.000</p>
+                            <p>3 cuotas sin interés</p>
+                        </div>
+                    </div>
+
+                    <!-- Producto 6 -->
+                    <div class="col-md-4 producto" data-precio="95000">
+                        <div class="producto-carta">
+                            <a href="https://ar.puma.com/pd/zapatillas-puma-slipstream/404752.html?color=01" target="_blank">
+                                <img src="HTML/Imagenes puma/WhatsApp Image 2025-06-09 at 21.51.57.jpeg" alt="Puma Slipstream">
+                            </a>
+                            <p>Puma Slipstream</p>
+                            <p class="precio">$95.000</p>
+                            <p>3 cuotas sin interés</p>
+                        </div>
+                    </div>
+
+                    <!-- Producto 7 -->
+                    <div class="col-md-4 producto" data-precio="150000">
+                        <div class="producto-carta">
+                            <a href="https://ar.puma.com/pd/zapatillas-de-running-para-mujer-deviate-nitrotm-elite-2/380089.html?color=01" target="_blank">
+                                <img src="HTML/Imagenes puma/WhatsApp Image 2025-06-09 at 21.58.43.jpeg" alt="Puma Deviate NITRO™ Elite 2">
+                            </a>
+                            <p>Puma Deviate NITRO™ Elite 2</p>
+                            <p class="precio">$149.999</p>
+                            <p>3 cuotas sin interés</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SCRIPT -->
+    <script>
+        const range = document.getElementById('priceRange');
+        const valueLabel = document.getElementById('rangeValue');
+        range.addEventListener('input', () => {
+            valueLabel.textContent = range.value;
+            const productos = document.querySelectorAll('.producto');
+            productos.forEach(prod => {
+                const precio = parseInt(prod.getAttribute('data-precio'));
+                prod.style.display = (precio <= range.value) ? 'block' : 'none';
+            });
+        });
+    </script>
+
+<footer class="bg-light text-center py-3">
+    <p>&copy; 2025 DSTOP - Todos los derechos reservados</p>
+    <a href="https://instagram.com" target="_blank">Instagram</a> |
+    <a href="https://facebook.com" target="_blank">Facebook</a>
+</footer>
+
+<div>
+    <a href="https://wa.me/1153699165" class="whatsapp" target="_blank" title="¡Escribinos por WhatsApp!">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+    </a>
+    </div>
+    
+</body>
+</html>
